@@ -3,7 +3,7 @@
 
 DOCUMENTATION = '''
 ---
-module: cinder_manage
+module: os_cinder_manage
 short_description: Initialize OpenStack Block Storage (cinder) database
 description: Create the tables for the database backend used by cinder
 options:
@@ -21,7 +21,7 @@ author: Lorin Hochstein
 '''
 
 EXAMPLES = '''
-cinder_manage: action=dbsync
+os_cinder_manage: action=dbsync
 '''
 
 import subprocess

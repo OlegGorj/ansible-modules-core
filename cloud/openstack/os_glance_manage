@@ -3,7 +3,7 @@
 
 DOCUMENTATION = '''
 ---
-module: glance_manage
+module: os_glance_manage
 short_description: Initialize OpenStack Image (glance) database
 description: Create the tables for the database backend used by glance
 options:
@@ -21,7 +21,7 @@ author: Lorin Hochstein
 '''
 
 EXAMPLES = '''
-glance_manage: action=dbsync
+os_glance_manage: action=dbsync
 '''
 
 import os

@@ -3,7 +3,7 @@
 
 DOCUMENTATION = '''
 ---
-module: nova_manage
+module: os_nova_manage
 short_description: Initialize OpenStack Compute (nova) database
 description: Create the tables for the database backend used by nova
 options:
@@ -15,7 +15,7 @@ requirements: [ nova ]
 '''
 
 EXAMPLES = '''
-nova_manage: action=dbsync
+os_nova_manage: action=dbsync
 '''
 
 import subprocess

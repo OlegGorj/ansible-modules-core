@@ -3,7 +3,7 @@
 
 DOCUMENTATION = '''
 ---
-module: heat_manage
+module: os_heat_manage
 short_description: Initialize Orchestration (heat) database
 description: Create the tables for the database backend used by heat
 options:
@@ -21,7 +21,7 @@ author: Gauvain Pocentek
 '''
 
 EXAMPLES = '''
-heat_manage: action=dbsync
+os_heat_manage: action=dbsync
 '''
 
 import subprocess
